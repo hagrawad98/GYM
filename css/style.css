@@ -1,0 +1,119 @@
+@import url(fonts.css);
+
+body {
+    background-color: rgb(243, 247, 252);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #d3646452;
+    float: left;
+    width: 20%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+ul li:hover {
+    background-color: #d42424d0;
+}
+
+#control li {
+    float: none;
+    width: 100%;
+}
+
+#submenu {
+    display: none;
+}
+
+#control:hover #submenu {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: transparent;
+    background-image: url(..//images/bg.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+
+#first {
+    color: balck;
+    font-size: 20px;
+    text-shadow: 0 0 10px #D42424;
+    text-transform: capitalize;
+    font-family: Aquireo;
+    margin-top: 40px;
+}
+
+#second {
+    font-size: 20px;
+    word-spacing: 2px;
+    color: balck;
+    text-shadow: 0 0 10px #D42424;
+    font-family: Aquireo;
+}
+
+#firstp {
+    text-shadow: 0 0 3px rgb(56, 55, 55);
+}
+
+hr {
+    width: 60%;
+    background-color: #d42424d0;
+    border: none;
+    margin: auto;
+}
+
+#secondp {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(99, 97, 97);
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 8px dotted #d3646452;
+    text-align: center;
+
+}
+
+#last {
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    border: dashed 8px #d3646452;
+    font-family: Creativity;
+    padding: 20px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-left: 7%;
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+
+footer{
+    background-color: #d3646452;
+    background-position: center;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    color: #d42424d0;
+    height: 40px;
+    line-height: 40px;
+    font-size:20px;
+}
